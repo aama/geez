@@ -1145,7 +1145,7 @@
 	    [:ST, :CCY, :A2, :Present, "-astäḫärri-"],
 	    [:ST, :CCY, :A2, :Jussive, "-astäḫräy-"]]
     }
-    {:label "Pronominal Paradigms to be added"
+    {:label "Pronominal_Paradigms_to_be_added"
     :common {:morpheme :TOBEADDED,
 	    :pos :Pronoun,
 	    :proClass :To_be_added}
