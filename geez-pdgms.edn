@@ -288,7 +288,7 @@
     :note ""
     :pdgmType :Finite
     :common {:derivedStem :S,
-             :lexeme :ngr,
+             :lexeme :ngrS,
              :pos :Verb,
              :rootClass :CCC,
              :tam :Present}
@@ -1040,7 +1040,7 @@
     :pdgmType :NA
     :common {:morpheme :PRODEMREL,
              :pos :Pronoun,
-             :proClass :ProDemRel}
+             :proClass :ProRel}
     :terms [[:number :person :gender :token],
             [:Singular :Person3 :Common "zä-"],
             [:Plural :Person3 :Common "əllä"]]
