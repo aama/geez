@@ -5,20 +5,18 @@
 :datasource "Gragg1998"
 :geodemoURL "http://www.ethnologue.com/language/gez"
 :geodemoTXT "Varieties of Geez (Classical Ethiopic) were spoken in Ethiopia from approximately the last part of the first millennium BCE to the first millennium CE. The language continued as the principal written language until the 19th century, and survives today as the liturgical language of the Ethiopian church. The data given here for comparative purposes is taken from the concise grammatical sketch of Gragg1998."
-:schemata{:status [:NA],
-          :gender [:Common :Fem :Masc :Anim :Inam :Altern],
-          :stemClass [:A :A1 :A2 :D :L],
-          :rootClass [:CCC :CCW :CCY :CWC :CYC :WCC],
-          :pdgmType [:Finite :NA :VerbStems]
-          :pos [:Verb :Pronoun],
-          :person [:Person1 :Person2 :Person3],
-          :derivedStem [:B :S :ST :T],
-          :affix [:Prefix :Suffix],
-          :morphClass [:SubjMarker :VerbStems],
-          :proClass [:VSubjMarker :ProInd :ProObjSuff :ProPossSuff :ProDemFar :ProDemNear :ProRel :ProInterrog],
-          :tam [:Imperative :Jussive :Past :Present],
-          :number [:NumC :Plural :Singular],
-          :deixis [:Far :Near]}
+ :schemata {:affix [:Prefix  :Suffix],
+            :deixis [:Far :Near],
+            :derivedStem [:B :S :ST :T],
+            :gender [:Altern :Anim :Common :Fem :Inam :Masc],
+            :number [:NumC :Plural :Singular],
+            :person [:Person1 :Person2 :Person3],
+            :pos [:Pronoun :Verb],
+            :proClass [:ProDemFar :ProDemNear :ProInd :ProInterrog :ProObjSuff :ProPossSuff :ProRel :VSubjMarker],
+            :rootClass [:CCC :CCW :CCY :CWC :CYC :WCC],
+            :stemClass [:A :A1 :A2 :D :L],
+            :tam [:Imperative :Jussive :Past :Present]
+            :pdgmType [:Finite :VerbStems :PRO]}
 :pclass {:pngClass [:person :number :gender],
           :synsemClass [:case :derivedStem :polarity :pos :proClass :tam],
           :inflClass [:affix :rootClass :stemClass],
@@ -1014,9 +1012,8 @@
 ]
 :muterms [
     {:label "geez-PDemFar"
-    :pdgmType :NA
-    :common {:morpheme :PRODEMFAR,
-             :pos :Pronoun,
+    :pdgmType :PRO
+    :common {:pos :Pronoun,
              :deixis :Far,
              :proClass :ProDemFar}
     :terms [[:number :person :gender :token],
@@ -1025,9 +1022,8 @@
             [:Plural :Person3 :Common "əlləku"]]
     }
     {:label "geez-PDemNearRel"
-    :pdgmType :NA
-    :common {:morpheme :PRODEMNEAR,
-             :pos :Pronoun,
+    :pdgmType :PRO
+    :common {:pos :Pronoun,
              :deixis :Near,
              :proClass :ProDemNear}
     :terms [[:number :person :gender :token],
@@ -1037,18 +1033,16 @@
             [:Plural :Person3 :Fem "əlla/əllantu"]]
     }
     {:label "geez-PDemRel"
-    :pdgmType :NA
-    :common {:morpheme :PRODEMREL,
-             :pos :Pronoun,
+    :pdgmType :PRO
+    :common {:pos :Pronoun,
              :proClass :ProRel}
     :terms [[:number :person :gender :token],
             [:Singular :Person3 :Common "zä-"],
             [:Plural :Person3 :Common "əllä"]]
     }
     {:label "geez-PInd"
-    :pdgmType :NA
-    :common {:morpheme :PROIND,
-             :pos :Pronoun,
+    :pdgmType :PRO
+    :common {:pos :Pronoun,
              :proClass :ProInd}
     :terms [[:number :person :gender :token],
             [:Singular :Person1 :Common "anä"],
@@ -1063,9 +1057,8 @@
             [:Plural :Person3 :Fem "əmantu"]]
     }
     {:label "geez-PInterrog"
-    :pdgmType :NA
-    :common {:morpheme :PROINTERROG,
-             :pos :Pronoun,
+    :pdgmType :PRO
+    :common {:pos :Pronoun,
              :proClass :ProInterrog}
     :terms [[:number :person :gender :token],
             [:NumC :Person3 :Inam "mənt"],
@@ -1073,9 +1066,8 @@
             [:NumC :Person3 :Altern "äyy"]]
     }
     {:label "geez-PObjSuff"
-    :pdgmType :NA
-    :common {:morpheme :PROOBJSUFF,
-             :pos :Pronoun,
+    :pdgmType :PRO
+    :common {:pos :Pronoun,
              :proClass :ProObjSuff}
     :terms [[:number :person :gender :token],
             [:Singular :Person1 :Common "-ni"],
@@ -1090,16 +1082,15 @@
             [:Plural :Person3 :Fem "-hon"]]
     }
     {:label "geez-PPossSuff"
-    :pdgmType :NA
-    :common {:morpheme :PROPOSSSUFF,
-             :pos :Pronoun,
+    :pdgmType :PRO
+    :common {:pos :Pronoun,
              :proClass :ProPossSuff}
     :terms [[:number :person :gender :token],
             [:Singular :Person1 :Common "-yä"],
             [:Singular :Person2 :Masc "-kä"],
             [:Singular :Person2 :Fem "-ki"],
             [:Singular :Person3 :Masc "-hu"],
-            [:Singular :Person3 :FemÍ "-ha"],
+            [:Singular :Person3 :Fem "-ha"],
             [:Plural :Person1 :Common "-nä"],
             [:Plural :Person2 :Masc "-kəmu"],
             [:Plural :Person2 :Fem "-kən"],
@@ -1108,9 +1099,8 @@
     }
     {:label "geez-VSubjMarker"
     :note ""
-    :pdgmType :NA
-    :common {:morpheme :SUBJMARKER,
-             :pos :Pronoun,
+    :pdgmType :PRO
+    :common {:pos :Pronoun,
              :proClass :VSubjMarker}
     :terms [[:affix :number :person :gender :token :token-pref :token-stem :token-suff],
             [:Prefix :Singular :Person1 :Common "ə-...-Ø" "⊤" "⊤" "Ø"],
@@ -1137,9 +1127,7 @@
     {:label "geez-VVerbStems"
     :note "Full Geez verbal words are formed by combining the stem of the present or jussive with the prefixes and suffixes of the geezPrefixingVSubject paradigm,or the stem of the past with the suffixes of the geezSuffixingVSubject paradigm"
     :pdgmType :VerbStems
-    :common {:morpheme :VERBSTEMS,
-             :pos :Verb,
-             :morphClass :VerbStems}
+    :common {:pos :Verb}
     :terms [[:derivedStem :rootClass :stemClass :tam :token],
             [:B :CCC :A1 :Jussive "-ngər-"],
             [:B :CCC :A1 :Past "nägär-"],
