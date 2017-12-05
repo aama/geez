@@ -5,7 +5,8 @@
 :datasource "Gragg1998"
 :geodemoURL "http://www.ethnologue.com/language/gez"
 :geodemoTXT "Varieties of Geez (Classical Ethiopic) were spoken in Ethiopia from approximately the last part of the first millennium BCE to the first millennium CE. The language continued as the principal written language until the 19th century, and survives today as the liturgical language of the Ethiopian church. The data given here for comparative purposes is taken from the concise grammatical sketch of Gragg1998."
- :schemata {:affix [:Prefix  :Suffix],
+:schemata {:vmorphClass [:VerbStems ],
+            :affix [:Prefix :Suffix],
             :deixis [:Far :Near],
             :derivedStem [:B :S :ST :T],
             :gender [:Altern :Anim :Common :Fem :Inam :Masc],
@@ -16,7 +17,7 @@
             :rootClass [:CCC :CCW :CCY :CWC :CYC :WCC],
             :stemClass [:A :A1 :A2 :D :L],
             :tam [:Imperative :Jussive :Past :Present]
-            :pdgmType [:Finite :VerbStems :PRO]}
+            :pdgmType [:Finite :PRO :VOther]}
 :pclass {:pngClass [:person :number :gender],
           :synsemClass [:case :derivedStem :polarity :pos :proClass :tam],
           :inflClass [:affix :rootClass :stemClass],
@@ -1126,8 +1127,9 @@
     }
     {:label "geez-VVerbStems"
     :note "Full Geez verbal words are formed by combining the stem of the present or jussive with the prefixes and suffixes of the geezPrefixingVSubject paradigm,or the stem of the past with the suffixes of the geezSuffixingVSubject paradigm"
-    :pdgmType :VerbStems
-    :common {:pos :Verb}
+    :pdgmType :VOther
+    :common {:vmorphClass :VerbStems
+             :pos :Verb}
     :terms [[:derivedStem :rootClass :stemClass :tam :token],
             [:B :CCC :A1 :Jussive "-ngər-"],
             [:B :CCC :A1 :Past "nägär-"],
