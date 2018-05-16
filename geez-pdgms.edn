@@ -69,7 +69,7 @@
  :termclusters [
                 {:label "geez-VCCCBA1Imprtv"
                  :note ""
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :derivedStem :B,
                           :lexeme :ngrB,
                           :person :Person2,
@@ -85,7 +85,7 @@
                  }
                 {:label "geez-VCCCBA1Juss"
                  :note ""
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :derivedStem :B,
                           :lexeme :ngrB,
                           :pos :Verb,
@@ -106,7 +106,7 @@
                  }
                 {:label "geez-VCCCBA1Past"
                  :note ""
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :derivedStem :B,
                           :lexeme :ngrB,
                           :pos :Verb,
@@ -127,7 +127,7 @@
                  }
                 {:label "geez-VCCCBA1Pres"
                  :note ""
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :derivedStem :B,
                           :lexeme :ngrB,
                           :pos :Verb,
@@ -148,7 +148,7 @@
                  }
                 {:label "geez-VCCCBA2Imprtv"
                  :note ""
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :derivedStem :B,
                           :lexeme :lbsB,
                           :person :Person2,
@@ -164,7 +164,7 @@
                  }
                 {:label "geez-VCCCBA2Juss"
                  :note ""
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :derivedStem :B,
                           :lexeme :lbsB,
                           :pos :Verb,
@@ -185,7 +185,7 @@
                  }
                 {:label "geez-VCCCBA2Past"
                  :note ""
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :derivedStem :B,
                           :lexeme :lbsB,
                           :pos :Verb,
@@ -206,7 +206,7 @@
                  }
                 {:label "geez-VCCCBA2Pres"
                  :note ""
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :derivedStem :B,
                           :lexeme :lbsB,
                           :pos :Verb,
@@ -227,7 +227,7 @@
                  }
                 {:label "geez-VCCCSImprtv"
                  :note ""
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :derivedStem :S,
                           :lexeme :ngrS,
                           :person :Person2,
@@ -242,7 +242,7 @@
                  }
                 {:label "geez-VCCCSJuss"
                  :note ""
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :derivedStem :S,
                           :lexeme :ngrS,
                           :pos :Verb,
@@ -262,7 +262,7 @@
                  }
                 {:label "geez-VCCCSPast"
                  :note ""
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :derivedStem :S,
                           :lexeme :ngrS,
                           :pos :Verb,
@@ -282,7 +282,7 @@
                  }
                 {:label "geez-VCCCSPres"
                  :note ""
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :derivedStem :S,
                           :lexeme :ngrS,
                           :pos :Verb,
@@ -302,7 +302,7 @@
                  }
                 {:label "geez-VCCCTImprtv"
                  :note ""
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :derivedStem :T,
                           :lexeme :ngrT,
                           :person :Person2,
@@ -317,7 +317,7 @@
                  }
                 {:label "geez-VCCCTJuss"
                  :note ""
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :derivedStem :T,
                           :lexeme :ngrT,
                           :pos :Verb,
@@ -337,7 +337,7 @@
                  }
                 {:label "geez-VCCCTPast"
                  :note ""
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :derivedStem :T,
                           :lexeme :ngrT,
                           :pos :Verb,
@@ -357,7 +357,7 @@
                  }
                 {:label "geez-VCCCTPres"
                  :note ""
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :derivedStem :T,
                           :lexeme :ngrT,
                           :pos :Verb,
@@ -377,7 +377,7 @@
                  }
                 {:label "geez-VCCWBA1Imprtv"
                  :note ""
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :derivedStem :B,
                           :lexeme :ftwB,
                           :person :Person2,
@@ -393,7 +393,7 @@
                  }
                 {:label "geez-VCCWBA1Juss"
                  :note ""
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :derivedStem :B,
                           :lexeme :ftwB,
                           :pos :Verb,
@@ -414,7 +414,7 @@
                  }
                 {:label "geez-VCCWBA1Past"
                  :note ""
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :derivedStem :B,
                           :lexeme :ftwB,
                           :pos :Verb,
@@ -435,7 +435,7 @@
                  }
                 {:label "geez-VCCWBA1Pres"
                  :note ""
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :derivedStem :B,
                           :lexeme :ftwB,
                           :pos :Verb,
@@ -456,7 +456,7 @@
                  }
                 {:label "geez-VCCWBA2Imprtv"
                  :note ""
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :derivedStem :B,
                           :lexeme :bdwB,
                           :person :Person2,
@@ -472,7 +472,7 @@
                  }
                 {:label "geez-VCCWBA2Juss"
                  :note ""
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :derivedStem :B,
                           :lexeme :bdwB,
                           :pos :Verb,
@@ -493,7 +493,7 @@
                  }
                 {:label "geez-VCCWBA2Past"
                  :note ""
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :derivedStem :B,
                           :lexeme :bdwB,
                           :pos :Verb,
@@ -514,7 +514,7 @@
                  }
                 {:label "geez-VCCWBA2Pres"
                  :note ""
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :derivedStem :B,
                           :lexeme :bdwB,
                           :pos :Verb,
@@ -535,7 +535,7 @@
                  }
                 {:label "geez-VCCYBA1Imprtv"
                  :note ""
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :derivedStem :B,
                           :lexeme :sryB,
                           :person :Person2,
@@ -551,7 +551,7 @@
                  }
                 {:label "geez-VCCYBA1Juss"
                  :note ""
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :derivedStem :B,
                           :lexeme :sryB,
                           :pos :Verb,
@@ -572,7 +572,7 @@
                  }
                 {:label "geez-VCCYBA1Past"
                  :note ""
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :derivedStem :B,
                           :lexeme :sryB,
                           :pos :Verb,
@@ -593,7 +593,7 @@
                  }
                 {:label "geez-VCCYBA1Pres"
                  :note ""
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :derivedStem :B,
                           :lexeme :sryB,
                           :pos :Verb,
@@ -614,7 +614,7 @@
                  }
                 {:label "geez-VCCYBA2Imprtv"
                  :note ""
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :derivedStem :B,
                           :lexeme :xryB,
                           :person :Person2,
@@ -630,7 +630,7 @@
                  }
                 {:label "geez-VCCYBA2Juss"
                  :note ""
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :derivedStem :B,
                           :lexeme :xryB,
                           :pos :Verb,
@@ -651,7 +651,7 @@
                  }
                 {:label "geez-VCCYBA2Past"
                  :note ""
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :derivedStem :B,
                           :lexeme :xryB,
                           :pos :Verb,
@@ -672,7 +672,7 @@
                  }
                 {:label "geez-VCCYBA2Pres"
                  :note ""
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :derivedStem :B,
                           :lexeme :xryB,
                           :pos :Verb,
@@ -693,7 +693,7 @@
                  }
                 {:label "geez-VCWCBAImprtv"
                  :note ""
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :derivedStem :B,
                           :lexeme :qwmB,
                           :person :Person2,
@@ -709,7 +709,7 @@
                  }
                 {:label "geez-VCWCBAJuss"
                  :note ""
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :derivedStem :B,
                           :lexeme :qwmB,
                           :pos :Verb,
@@ -730,7 +730,7 @@
                  }
                 {:label "geez-VCWCBAPast"
                  :note ""
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :derivedStem :B,
                           :lexeme :qwmB,
                           :pos :Verb,
@@ -751,7 +751,7 @@
                  }
                 {:label "geez-VCWCBAPres"
                  :note ""
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :derivedStem :B,
                           :lexeme :qwmB,
                           :pos :Verb,
@@ -772,7 +772,7 @@
                  }
                 {:label "geez-VCYCBAImprtv"
                  :note ""
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :derivedStem :B,
                           :lexeme :kydB,
                           :person :Person2,
@@ -788,7 +788,7 @@
                  }
                 {:label "geez-VCYCBAJuss"
                  :note ""
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :derivedStem :B,
                           :lexeme :kydB,
                           :pos :Verb,
@@ -809,7 +809,7 @@
                  }
                 {:label "geez-VCYCBAPast"
                  :note ""
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :derivedStem :B,
                           :lexeme :kydB,
                           :pos :Verb,
@@ -830,7 +830,7 @@
                  }
                 {:label "geez-VCYCBAPres"
                  :note ""
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :derivedStem :B,
                           :lexeme :kydB,
                           :pos :Verb,
@@ -851,7 +851,7 @@
                  }
                 {:label "geez-VWCCBA1Imprtv"
                  :note ""
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :derivedStem :B,
                           :lexeme :wrdB,
                           :person :Person2,
@@ -867,7 +867,7 @@
                  }
                 {:label "geez-VWCCBA1Juss"
                  :note ""
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :derivedStem :B,
                           :lexeme :wrdB,
                           :pos :Verb,
@@ -888,7 +888,7 @@
                  }
                 {:label "geez-VWCCBA1Past"
                  :note ""
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :derivedStem :B,
                           :lexeme :wrdB,
                           :pos :Verb,
@@ -909,7 +909,7 @@
                  }
                 {:label "geez-VWCCBA1Pres"
                  :note ""
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :derivedStem :B,
                           :lexeme :wrdB,
                           :pos :Verb,
@@ -930,7 +930,7 @@
                  }
                 {:label "geez-VWCCBA2Imprtv"
                  :note ""
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :derivedStem :B,
                           :lexeme :wdqB,
                           :person :Person2,
@@ -946,7 +946,7 @@
                  }
                 {:label "geez-VWCCBA2Juss"
                  :note ""
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :derivedStem :B,
                           :lexeme :wdqB,
                           :pos :Verb,
@@ -967,7 +967,7 @@
                  }
                 {:label "geez-VWCCBA2Past"
                  :note ""
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :derivedStem :B,
                           :lexeme :wdqB,
                           :pos :Verb,
@@ -988,7 +988,7 @@
                  }
                 {:label "geez-VWCCBA2Pres"
                  :note ""
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :derivedStem :B,
                           :lexeme :wdqB,
                           :pos :Verb,
