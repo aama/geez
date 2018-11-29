@@ -5,8 +5,7 @@
  :datasource "Gragg1998"
  :geodemoURL "http://www.ethnologue.com/language/gez"
  :geodemoTXT "Varieties of Geez (Classical Ethiopic) were spoken in Ethiopia from approximately the last part of the first millennium BCE to the first millennium CE. The language continued as the principal written language until the 19th century, and survives today as the liturgical language of the Ethiopian church. The data given here for comparative purposes is taken from the concise grammatical sketch of Gragg1998."
- :schemata {:lexeme [:bdwB  :ftwB :kydB :lbsB :ngrB :ngrS :ngrT :qwmB :sryB :wdqB :wrdB :xryB],
- :affix [:Prefix :Suffix],
+ :schemata { :affix [:Prefix :Suffix],
  :deixis [:Far :Near],
  :derivedStem [:B :S :ST :T],
  :gender [:Altern :Anim :Common :Fem :Inam :Masc],
@@ -23,50 +22,52 @@
           :synsemClass [:case :derivedStem :polarity :pos :proClass :tam],
           :inflClass [:affix :rootClass :stemClass],
           :otherClass []}
- :lexemes{:lbsB {:lemma "läbs-ä", :gloss "clothe", :pos :Verb, :rootClass :CCC, :derivedStem :B, :stemClass :A2},
-          :bdwT {:lemma "täbädw-ä", :gloss "desolate", :pos :Verb, :rootClass :CCW, :derivedStem :T, :stemClass :A2},
-          :qwmS {:lemma "qom-ä", :gloss "stand", :pos :Verb, :rootClass :CWC, :derivedStem :S, :stemClass :A},
-          :qwmT {:lemma "täqäwm-ä", :gloss "stand", :pos :Verb, :rootClass :CWC, :derivedStem :T, :stemClass :A},
-          :fsmT {:lemma "täfä??äm-ä", :gloss "finish", :pos :Verb, :rootClass :CCC, :derivedStem :T, :stemClass :D},
-          :whyST {:lemma "astäwä??ä", :gloss "spend", :pos :Verb, :rootClass :WCC, :derivedStem :ST, :stemClass :A2},
-          :wdqT {:lemma "täwädq-ä", :gloss "fall", :pos :Verb, :rootClass :WCC, :derivedStem :T, :stemClass :A2},
-          :kydS {:lemma "aked-ä", :gloss "go", :pos :Verb, :rootClass :CYC, :derivedStem :S, :stemClass :A},
-          :ngrST {:lemma "astängär-ä", :gloss "speak", :pos :Verb, :rootClass :CCC, :derivedStem :ST, :stemClass :A1},
-          :ftwB {:lemma "fätäw-ä/fäto-ä", :gloss "love", :pos :Verb, :rootClass :CCW, :derivedStem :B, :stemClass :A1},
-          :wrdB {:lemma "wäräd-ä", :gloss "descend", :pos :Verb, :rootClass :WCC, :derivedStem :B, :stemClass :A1},
-          :kydT {:lemma "täkäyd-ä", :gloss "go", :pos :Verb, :rootClass :CYC, :derivedStem :T, :stemClass :A},
-          :lbsST {:lemma "astälbäs-ä", :gloss "clothe", :pos :Verb, :rootClass :CCC, :derivedStem :ST, :stemClass :A2},
-          :fsmS {:lemma "afä??äm-ä", :gloss "finish", :pos :Verb, :rootClass :CCC, :derivedStem :S, :stemClass :D},
-          :lbsS {:lemma "albäs-ä", :gloss "clothe", :pos :Verb, :rootClass :CCC, :derivedStem :S, :stemClass :A2},
-          :wrdT {:lemma "täwärd-ä", :gloss "descend", :pos :Verb, :rootClass :WCC, :derivedStem :T, :stemClass :A1},
-          :ftwT {:lemma "täfätw-ä", :gloss "love", :pos :Verb, :rootClass :CCW, :derivedStem :T, :stemClass :A1},
-          :lbsT {:lemma "täläbs-ä", :gloss "clothe", :pos :Verb, :rootClass :CCC, :derivedStem :T, :stemClass :A2},
-          :ftwS {:lemma "aftäw-ä", :gloss "love", :pos :Verb, :rootClass :CCW, :derivedStem :S, :stemClass :A1},
-          :wrdS {:lemma "awräd-ä", :gloss "descend", :pos :Verb, :rootClass :WCC, :derivedStem :S, :stemClass :A1},
-          :xryST {:lemma "astä?räy-ä", :gloss "choose", :pos :Verb, :rootClass :CCY, :derivedStem :ST, :stemClass :A2},
-          :xryB {:lemma "?äry-ä", :gloss "choose", :pos :Verb, :rootClass :CCY, :derivedStem :B, :stemClass :A2},
-          :ngrB {:lemma "nägär-ä", :gloss "speak", :pos :Verb, :rootClass :CCC, :derivedStem :B, :stemClass :A1},
-          :wdqS {:lemma "awdäq-ä", :gloss "fall", :pos :Verb, :rootClass :WCC, :derivedStem :S, :stemClass :A2},
-          :sryB {:lemma "säräy-ä/säre-ä", :gloss "pardon", :pos :Verb, :rootClass :CCY, :derivedStem :B, :stemClass :A1},
-          :hwrST {:lemma "astä?äwr-ä", :gloss "bring-back", :pos :Verb, :rootClass :CWC, :derivedStem :ST, :stemClass :A},
-          :bdwB {:lemma "bädw-ä/bädo", :gloss "desolate", :pos :Verb, :rootClass :CCW, :derivedStem :B, :stemClass :A2},
-          :msnST {:lemma "astämasän-ä", :gloss "corrupt", :pos :Verb, :rootClass :CCC, :derivedStem :ST, :stemClass :L},
-          :fsmB {:lemma "fä??äm-ä", :gloss "finish", :pos :Verb, :rootClass :CCC, :derivedStem :B, :stemClass :D},
-          :msnB {:lemma "masän-ä", :gloss "corrupt", :pos :Verb, :rootClass :CCC, :derivedStem :B, :stemClass :L},
-          :msnT {:lemma "tämasän-ä", :gloss "corrupt", :pos :Verb, :rootClass :CCC, :derivedStem :T, :stemClass :L},
-          :msnS {:lemma "amasän-ä", :gloss "corrupt", :pos :Verb, :rootClass :CCC, :derivedStem :S, :stemClass :L},
-          :kydB {:lemma "ked-ä", :gloss "go", :pos :Verb, :rootClass :CYC, :derivedStem :B, :stemClass :A},
-          :fsmST {:lemma "astäfä??äm-ä", :gloss "finish", :pos :Verb, :rootClass :CCC, :derivedStem :ST, :stemClass :D},
-          :xryS {:lemma "a?räy-ä", :gloss "choose", :pos :Verb, :rootClass :CCY, :derivedStem :S, :stemClass :A2},
-          :whsST {:lemma "astäw?äs-ä", :gloss "lend", :pos :Verb, :rootClass :WCC, :derivedStem :ST, :stemClass :A1},
-          :xryT {:lemma "tä?äry-ä", :gloss "choose", :pos :Verb, :rootClass :CCY, :derivedStem :T, :stemClass :A2},
-          :qwmB {:lemma "qom-ä", :gloss "stand", :pos :Verb, :rootClass :CWC, :derivedStem :B, :stemClass :A},
-          :ngrT {:lemma "tänägr-ä", :gloss "speak", :pos :Verb, :rootClass :CCC, :derivedStem :T, :stemClass :A1},
-          :ngrS {:lemma "angär-ä", :gloss "speak", :pos :Verb, :rootClass :CCC, :derivedStem :S, :stemClass :A1},
-          :sryT {:lemma "täsäry-ä", :gloss "pardon", :pos :Verb, :rootClass :CCY, :derivedStem :T, :stemClass :A1},
-          :bdwS {:lemma "abdäw-ä", :gloss "desolate", :pos :Verb, :rootClass :CCW, :derivedStem :S, :stemClass :A2},
-          :sryS {:lemma "asräy-ä", :gloss "pardon", :pos :Verb, :rootClass :CCY, :derivedStem :S, :stemClass :A1},
-          :wdqB {:lemma "wädq-ä", :gloss "fall", :pos :Verb, :rootClass :WCC, :derivedStem :B, :stemClass :A2}}
+ :lexemes {
+:bdwB   {:pos :Verb, :lemma "bädw-ä/bädo", :gloss "desolate", :rootClass :CCW, :derivedStem :B, :stemClass :A2},
+:bdwS   {:pos :Verb, :lemma "abdäw-ä", :gloss "desolate", :rootClass :CCW, :derivedStem :S, :stemClass :A2},
+:bdwT   {:pos :Verb, :lemma "täbädw-ä", :gloss "desolate", :rootClass :CCW, :derivedStem :T, :stemClass :A2},
+:fsmB   {:pos :Verb, :lemma "fä??äm-ä", :gloss "finish", :rootClass :CCC, :derivedStem :B, :stemClass :D},
+:fsmS   {:pos :Verb, :lemma "afä??äm-ä", :gloss "finish", :rootClass :CCC, :derivedStem :S, :stemClass :D},
+:fsmST   {:pos :Verb, :lemma "astäfä??äm-ä", :gloss "finish", :rootClass :CCC, :derivedStem :ST, :stemClass :D},
+:fsmT   {:pos :Verb, :lemma "täfä??äm-ä", :gloss "finish", :rootClass :CCC, :derivedStem :T, :stemClass :D},
+:ftwB   {:pos :Verb, :lemma "fätäw-ä/fäto-ä", :gloss "love", :rootClass :CCW, :derivedStem :B, :stemClass :A1},
+:ftwS   {:pos :Verb, :lemma "aftäw-ä", :gloss "love", :rootClass :CCW, :derivedStem :S, :stemClass :A1},
+:ftwT   {:pos :Verb, :lemma "täfätw-ä", :gloss "love", :rootClass :CCW, :derivedStem :T, :stemClass :A1},
+:hwrST   {:pos :Verb, :lemma "astä?äwr-ä", :gloss "bring-back", :rootClass :CWC, :derivedStem :ST, :stemClass :A},
+:kydB   {:pos :Verb, :lemma "ked-ä", :gloss "go", :rootClass :CYC, :derivedStem :B, :stemClass :A},
+:kydS   {:pos :Verb, :lemma "aked-ä", :gloss "go", :rootClass :CYC, :derivedStem :S, :stemClass :A},
+:kydT   {:pos :Verb, :lemma "täkäyd-ä", :gloss "go", :rootClass :CYC, :derivedStem :T, :stemClass :A},
+:lbsB   {:pos :Verb, :lemma "läbs-ä", :gloss "clothe", :rootClass :CCC, :derivedStem :B, :stemClass :A2},
+:lbsS   {:pos :Verb, :lemma "albäs-ä", :gloss "clothe", :rootClass :CCC, :derivedStem :S, :stemClass :A2},
+:lbsST   {:pos :Verb, :lemma "astälbäs-ä", :gloss "clothe", :rootClass :CCC, :derivedStem :ST, :stemClass :A2},
+:lbsT   {:pos :Verb, :lemma "täläbs-ä", :gloss "clothe", :rootClass :CCC, :derivedStem :T, :stemClass :A2},
+:msnB   {:pos :Verb, :lemma "masän-ä", :gloss "corrupt", :rootClass :CCC, :derivedStem :B, :stemClass :L},
+:msnS   {:pos :Verb, :lemma "amasän-ä", :gloss "corrupt", :rootClass :CCC, :derivedStem :S, :stemClass :L},
+:msnST   {:pos :Verb, :lemma "astämasän-ä", :gloss "corrupt", :rootClass :CCC, :derivedStem :ST, :stemClass :L},
+:msnT   {:pos :Verb, :lemma "tämasän-ä", :gloss "corrupt", :rootClass :CCC, :derivedStem :T, :stemClass :L},
+:ngrB   {:pos :Verb, :lemma "nägär-ä", :gloss "speak", :rootClass :CCC, :derivedStem :B, :stemClass :A1},
+:ngrS   {:pos :Verb, :lemma "angär-ä", :gloss "speak", :rootClass :CCC, :derivedStem :S, :stemClass :A1},
+:ngrST   {:pos :Verb, :lemma "astängär-ä", :gloss "speak", :rootClass :CCC, :derivedStem :ST, :stemClass :A1},
+:ngrT   {:pos :Verb, :lemma "tänägr-ä", :gloss "speak", :rootClass :CCC, :derivedStem :T, :stemClass :A1},
+:qwmB   {:pos :Verb, :lemma "qom-ä", :gloss "stand", :rootClass :CWC, :derivedStem :B, :stemClass :A},
+:qwmS   {:pos :Verb, :lemma "qom-ä", :gloss "stand", :rootClass :CWC, :derivedStem :S, :stemClass :A},
+:qwmT   {:pos :Verb, :lemma "täqäwm-ä", :gloss "stand", :rootClass :CWC, :derivedStem :T, :stemClass :A},
+:sryB   {:pos :Verb, :lemma "säräy-ä/säre-ä", :gloss "pardon", :rootClass :CCY, :derivedStem :B, :stemClass :A1},
+:sryS   {:pos :Verb, :lemma "asräy-ä", :gloss "pardon", :rootClass :CCY, :derivedStem :S, :stemClass :A1},
+:sryT   {:pos :Verb, :lemma "täsäry-ä", :gloss "pardon", :rootClass :CCY, :derivedStem :T, :stemClass :A1},
+:wdqB   {:pos :Verb, :lemma "wädq-ä", :gloss "fall", :rootClass :WCC, :derivedStem :B, :stemClass :A2},
+:wdqS   {:pos :Verb, :lemma "awdäq-ä", :gloss "fall", :rootClass :WCC, :derivedStem :S, :stemClass :A2},
+:wdqT   {:pos :Verb, :lemma "täwädq-ä", :gloss "fall", :rootClass :WCC, :derivedStem :T, :stemClass :A2},
+:whsST   {:pos :Verb, :lemma "astäw?äs-ä", :gloss "lend", :rootClass :WCC, :derivedStem :ST, :stemClass :A1},
+:whyST   {:pos :Verb, :lemma "astäwä??ä", :gloss "spend", :rootClass :WCC, :derivedStem :ST, :stemClass :A2},
+:wrdB   {:pos :Verb, :lemma "wäräd-ä", :gloss "descend", :rootClass :WCC, :derivedStem :B, :stemClass :A1},
+:wrdS   {:pos :Verb, :lemma "awräd-ä", :gloss "descend", :rootClass :WCC, :derivedStem :S, :stemClass :A1},
+:wrdT   {:pos :Verb, :lemma "täwärd-ä", :gloss "descend", :rootClass :WCC, :derivedStem :T, :stemClass :A1},
+:xryB   {:pos :Verb, :lemma "?äry-ä", :gloss "choose", :rootClass :CCY, :derivedStem :B, :stemClass :A2},
+:xryS   {:pos :Verb, :lemma "a?räy-ä", :gloss "choose", :rootClass :CCY, :derivedStem :S, :stemClass :A2},
+:xryST   {:pos :Verb, :lemma "astä?räy-ä", :gloss "choose", :rootClass :CCY, :derivedStem :ST, :stemClass :A2},
+:xryT   {:pos :Verb, :lemma "tä?äry-ä", :gloss "choose", :rootClass :CCY, :derivedStem :T, :stemClass :A2},
+}
  :termclusters [
                 {:label "geez-VCCCBA1Imprtv"
                  :note ""
@@ -1028,14 +1029,16 @@
                          [:Plural :Person3 :Fem "əlla/əllantu"]]
                  }
                 {:label "geez-PDemRel"
-                 :common {             :pos :Pronoun, :pmorphClass :ProMorph,
+                 :common {:pos :Pronoun, 
+                          :pmorphClass :ProMorph,
                           :proClass :ProDemRel}
                  :terms [[:number :person :gender :token],
                          [:Singular :Person3 :Common "zä-"],
                          [:Plural :Person3 :Common "əllä"]]
                  }
                 {:label "geez-PInd"
-                 :common {             :pos :Pronoun, :pmorphClass :ProMorph,
+                 :common {:pos :Pronoun, 
+                          :pmorphClass :ProMorph,
                           :proClass :ProInd}
                  :terms [[:number :person :gender :token],
                          [:Singular :Person1 :Common "anä"],
@@ -1050,7 +1053,8 @@
                          [:Plural :Person3 :Fem "əmantu"]]
                  }
                 {:label "geez-PInterrog"
-                 :common {             :pos :Pronoun, :pmorphClass :ProMorph,
+                 :common {:pos :Pronoun, 
+                          :pmorphClass :ProMorph,
                           :proClass :ProInterrog}
                  :terms [[:number :person :gender :token],
                          [:NumC :Person3 :Inam "mənt"],
@@ -1058,7 +1062,8 @@
                          [:NumC :Person3 :Altern "äyy"]]
                  }
                 {:label "geez-PObjSuff"
-                 :common {             :pos :Pronoun, :pmorphClass :ProMorph,
+                 :common {:pos :Pronoun, 
+                          :pmorphClass :ProMorph,
                           :proClass :ProObjSuff}
                  :terms [[:number :person :gender :token],
                          [:Singular :Person1 :Common "-ni"],
@@ -1073,7 +1078,8 @@
                          [:Plural :Person3 :Fem "-hon"]]
                  }
                 {:label "geez-PPossSuff"
-                 :common {             :pos :Pronoun, :pmorphClass :ProMorph,
+                 :common {:pos :Pronoun, 
+                          :pmorphClass :ProMorph,
                           :proClass :ProPossSuff}
                  :terms [[:number :person :gender :token],
                          [:Singular :Person1 :Common "-yä"],
@@ -1089,7 +1095,8 @@
                  }
                 {:label "geez-VSubjMarker"
                  :note ""
-                 :common {             :pos :Pronoun, :pmorphClass :ProMorph,
+                 :common {:pos :Pronoun, 
+                          :pmorphClass :ProMorph,
                           :proClass :VSubjMarker}
                  :terms [[:affix :number :person :gender :token :token-pref :token-stem :token-suff],
                          [:Prefix :Singular :Person1 :Common "ə-...-Ø" "⊤" "⊤" "Ø"],
@@ -1115,7 +1122,7 @@
                  }
                 {:label "geez-VVerbStems"
                  :note "Full Geez verbal words are formed by combining the stem of the present or jussive with the prefixes and suffixes of the geezPrefixingVSubject paradigm,or the stem of the past with the suffixes of the geezSuffixingVSubject paradigm"
-                 :common {             :pos :Verb,
+                 :common {:pos :Verb,
                           :vmorphClass :VerbStems}
                  :terms [[:derivedStem :rootClass :stemClass :tam :token],
                          [:B :CCC :A1 :Jussive "-ngər-"],
