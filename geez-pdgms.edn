@@ -2,75 +2,75 @@
  :lang :geez
  :subfamily "Semitic South"
  :sgpref "gez"
- :datasource "Gragg1998"
+ :datasource "Gragg1998; abbrev. G98"
  :geodemoURL "http://www.ethnologue.com/language/gez"
  :geodemoTXT "Varieties of Geez (Classical Ethiopic) were spoken in Ethiopia from approximately the last part of the first millennium BCE to the first millennium CE. The language continued as the principal written language until the 19th century, and survives today as the liturgical language of the Ethiopian church. The data given here for comparative purposes is taken from the concise grammatical sketch of Gragg1998."
  :schemata { :affix [:Prefix :Suffix],
- :deixis [:Far :Near],
- :derivedStem [:B :S :ST :T],
- :gender [:Altern :Anim :Common :Fem :Inam :Masc],
- :number [:NumC :Plural :Singular],
- :person [:Person1 :Person2 :Person3],
- :pos [:Pronoun :Verb],
- :proClass [:ProDemFar :ProDemNear :ProInd :ProInterrog :ProObjSuff :ProPossSuff :ProRel :VSubjMarker],
- :rootClass [:CCC :CCW :CCY :CWC :CYC :WCC],
- :stemClass [:A :A1 :A2 :D :L],
- :tam [:Imperative :Jussive :Past :Present],
- :vmorphClass [:Finite :VerbStems]
- }
+            :deixis [:Far :Near],
+            :derivedStem [:B :S :ST :T],
+            :gender [:Altern :Anim :Common :Fem :Inam :Masc],
+            :number [:NumC :Plural :Singular],
+            :person [:Person1 :Person2 :Person3],
+            :pos [:Pronoun :Verb],
+            :proClass [:ProDemFar :ProDemNear :ProInd :ProInterrog :ProObjSuff :ProPossSuff :ProRel :VSubjMarker],
+            :rootClass [:CCC :CCW :CCY :CWC :CYC :WCC],
+            :stemClass [:A :A1 :A2 :D :L],
+            :tam [:Imperative :Jussive :Past :Present],
+            :vmorphClass [:Finite :VerbStems]
+            }
  :pclass {:pngClass [:person :number :gender],
           :synsemClass [:case :derivedStem :polarity :pos :proClass :tam],
           :inflClass [:affix :rootClass :stemClass],
           :otherClass []}
  :lexemes {
-:bdwB   {:pos :Verb, :lemma "bädw-ä/bädo", :gloss "desolate", :rootClass :CCW, :derivedStem :B, :stemClass :A2},
-:bdwS   {:pos :Verb, :lemma "abdäw-ä", :gloss "desolate", :rootClass :CCW, :derivedStem :S, :stemClass :A2},
-:bdwT   {:pos :Verb, :lemma "täbädw-ä", :gloss "desolate", :rootClass :CCW, :derivedStem :T, :stemClass :A2},
-:fsmB   {:pos :Verb, :lemma "fä??äm-ä", :gloss "finish", :rootClass :CCC, :derivedStem :B, :stemClass :D},
-:fsmS   {:pos :Verb, :lemma "afä??äm-ä", :gloss "finish", :rootClass :CCC, :derivedStem :S, :stemClass :D},
-:fsmST   {:pos :Verb, :lemma "astäfä??äm-ä", :gloss "finish", :rootClass :CCC, :derivedStem :ST, :stemClass :D},
-:fsmT   {:pos :Verb, :lemma "täfä??äm-ä", :gloss "finish", :rootClass :CCC, :derivedStem :T, :stemClass :D},
-:ftwB   {:pos :Verb, :lemma "fätäw-ä/fäto-ä", :gloss "love", :rootClass :CCW, :derivedStem :B, :stemClass :A1},
-:ftwS   {:pos :Verb, :lemma "aftäw-ä", :gloss "love", :rootClass :CCW, :derivedStem :S, :stemClass :A1},
-:ftwT   {:pos :Verb, :lemma "täfätw-ä", :gloss "love", :rootClass :CCW, :derivedStem :T, :stemClass :A1},
-:hwrST   {:pos :Verb, :lemma "astä?äwr-ä", :gloss "bring-back", :rootClass :CWC, :derivedStem :ST, :stemClass :A},
-:kydB   {:pos :Verb, :lemma "ked-ä", :gloss "go", :rootClass :CYC, :derivedStem :B, :stemClass :A},
-:kydS   {:pos :Verb, :lemma "aked-ä", :gloss "go", :rootClass :CYC, :derivedStem :S, :stemClass :A},
-:kydT   {:pos :Verb, :lemma "täkäyd-ä", :gloss "go", :rootClass :CYC, :derivedStem :T, :stemClass :A},
-:lbsB   {:pos :Verb, :lemma "läbs-ä", :gloss "clothe", :rootClass :CCC, :derivedStem :B, :stemClass :A2},
-:lbsS   {:pos :Verb, :lemma "albäs-ä", :gloss "clothe", :rootClass :CCC, :derivedStem :S, :stemClass :A2},
-:lbsST   {:pos :Verb, :lemma "astälbäs-ä", :gloss "clothe", :rootClass :CCC, :derivedStem :ST, :stemClass :A2},
-:lbsT   {:pos :Verb, :lemma "täläbs-ä", :gloss "clothe", :rootClass :CCC, :derivedStem :T, :stemClass :A2},
-:msnB   {:pos :Verb, :lemma "masän-ä", :gloss "corrupt", :rootClass :CCC, :derivedStem :B, :stemClass :L},
-:msnS   {:pos :Verb, :lemma "amasän-ä", :gloss "corrupt", :rootClass :CCC, :derivedStem :S, :stemClass :L},
-:msnST   {:pos :Verb, :lemma "astämasän-ä", :gloss "corrupt", :rootClass :CCC, :derivedStem :ST, :stemClass :L},
-:msnT   {:pos :Verb, :lemma "tämasän-ä", :gloss "corrupt", :rootClass :CCC, :derivedStem :T, :stemClass :L},
-:ngrB   {:pos :Verb, :lemma "nägär-ä", :gloss "speak", :rootClass :CCC, :derivedStem :B, :stemClass :A1},
-:ngrS   {:pos :Verb, :lemma "angär-ä", :gloss "speak", :rootClass :CCC, :derivedStem :S, :stemClass :A1},
-:ngrST   {:pos :Verb, :lemma "astängär-ä", :gloss "speak", :rootClass :CCC, :derivedStem :ST, :stemClass :A1},
-:ngrT   {:pos :Verb, :lemma "tänägr-ä", :gloss "speak", :rootClass :CCC, :derivedStem :T, :stemClass :A1},
-:qwmB   {:pos :Verb, :lemma "qom-ä", :gloss "stand", :rootClass :CWC, :derivedStem :B, :stemClass :A},
-:qwmS   {:pos :Verb, :lemma "qom-ä", :gloss "stand", :rootClass :CWC, :derivedStem :S, :stemClass :A},
-:qwmT   {:pos :Verb, :lemma "täqäwm-ä", :gloss "stand", :rootClass :CWC, :derivedStem :T, :stemClass :A},
-:sryB   {:pos :Verb, :lemma "säräy-ä/säre-ä", :gloss "pardon", :rootClass :CCY, :derivedStem :B, :stemClass :A1},
-:sryS   {:pos :Verb, :lemma "asräy-ä", :gloss "pardon", :rootClass :CCY, :derivedStem :S, :stemClass :A1},
-:sryT   {:pos :Verb, :lemma "täsäry-ä", :gloss "pardon", :rootClass :CCY, :derivedStem :T, :stemClass :A1},
-:wdqB   {:pos :Verb, :lemma "wädq-ä", :gloss "fall", :rootClass :WCC, :derivedStem :B, :stemClass :A2},
-:wdqS   {:pos :Verb, :lemma "awdäq-ä", :gloss "fall", :rootClass :WCC, :derivedStem :S, :stemClass :A2},
-:wdqT   {:pos :Verb, :lemma "täwädq-ä", :gloss "fall", :rootClass :WCC, :derivedStem :T, :stemClass :A2},
-:whsST   {:pos :Verb, :lemma "astäw?äs-ä", :gloss "lend", :rootClass :WCC, :derivedStem :ST, :stemClass :A1},
-:whyST   {:pos :Verb, :lemma "astäwä??ä", :gloss "spend", :rootClass :WCC, :derivedStem :ST, :stemClass :A2},
-:wrdB   {:pos :Verb, :lemma "wäräd-ä", :gloss "descend", :rootClass :WCC, :derivedStem :B, :stemClass :A1},
-:wrdS   {:pos :Verb, :lemma "awräd-ä", :gloss "descend", :rootClass :WCC, :derivedStem :S, :stemClass :A1},
-:wrdT   {:pos :Verb, :lemma "täwärd-ä", :gloss "descend", :rootClass :WCC, :derivedStem :T, :stemClass :A1},
-:xryB   {:pos :Verb, :lemma "?äry-ä", :gloss "choose", :rootClass :CCY, :derivedStem :B, :stemClass :A2},
-:xryS   {:pos :Verb, :lemma "a?räy-ä", :gloss "choose", :rootClass :CCY, :derivedStem :S, :stemClass :A2},
-:xryST   {:pos :Verb, :lemma "astä?räy-ä", :gloss "choose", :rootClass :CCY, :derivedStem :ST, :stemClass :A2},
-:xryT   {:pos :Verb, :lemma "tä?äry-ä", :gloss "choose", :rootClass :CCY, :derivedStem :T, :stemClass :A2},
-}
+           :bdwB   {:pos :Verb, :lemma "bädw-ä/bädo", :gloss "desolate", :rootClass :CCW, :derivedStem :B, :stemClass :A2},
+           :bdwS   {:pos :Verb, :lemma "abdäw-ä", :gloss "desolate", :rootClass :CCW, :derivedStem :S, :stemClass :A2},
+           :bdwT   {:pos :Verb, :lemma "täbädw-ä", :gloss "desolate", :rootClass :CCW, :derivedStem :T, :stemClass :A2},
+           :fsmB   {:pos :Verb, :lemma "fä??äm-ä", :gloss "finish", :rootClass :CCC, :derivedStem :B, :stemClass :D},
+           :fsmS   {:pos :Verb, :lemma "afä??äm-ä", :gloss "finish", :rootClass :CCC, :derivedStem :S, :stemClass :D},
+           :fsmST   {:pos :Verb, :lemma "astäfä??äm-ä", :gloss "finish", :rootClass :CCC, :derivedStem :ST, :stemClass :D},
+           :fsmT   {:pos :Verb, :lemma "täfä??äm-ä", :gloss "finish", :rootClass :CCC, :derivedStem :T, :stemClass :D},
+           :ftwB   {:pos :Verb, :lemma "fätäw-ä/fäto-ä", :gloss "love", :rootClass :CCW, :derivedStem :B, :stemClass :A1},
+           :ftwS   {:pos :Verb, :lemma "aftäw-ä", :gloss "love", :rootClass :CCW, :derivedStem :S, :stemClass :A1},
+           :ftwT   {:pos :Verb, :lemma "täfätw-ä", :gloss "love", :rootClass :CCW, :derivedStem :T, :stemClass :A1},
+           :hwrST   {:pos :Verb, :lemma "astä?äwr-ä", :gloss "bring-back", :rootClass :CWC, :derivedStem :ST, :stemClass :A},
+           :kydB   {:pos :Verb, :lemma "ked-ä", :gloss "go", :rootClass :CYC, :derivedStem :B, :stemClass :A},
+           :kydS   {:pos :Verb, :lemma "aked-ä", :gloss "go", :rootClass :CYC, :derivedStem :S, :stemClass :A},
+           :kydT   {:pos :Verb, :lemma "täkäyd-ä", :gloss "go", :rootClass :CYC, :derivedStem :T, :stemClass :A},
+           :lbsB   {:pos :Verb, :lemma "läbs-ä", :gloss "clothe", :rootClass :CCC, :derivedStem :B, :stemClass :A2},
+           :lbsS   {:pos :Verb, :lemma "albäs-ä", :gloss "clothe", :rootClass :CCC, :derivedStem :S, :stemClass :A2},
+           :lbsST   {:pos :Verb, :lemma "astälbäs-ä", :gloss "clothe", :rootClass :CCC, :derivedStem :ST, :stemClass :A2},
+           :lbsT   {:pos :Verb, :lemma "täläbs-ä", :gloss "clothe", :rootClass :CCC, :derivedStem :T, :stemClass :A2},
+           :msnB   {:pos :Verb, :lemma "masän-ä", :gloss "corrupt", :rootClass :CCC, :derivedStem :B, :stemClass :L},
+           :msnS   {:pos :Verb, :lemma "amasän-ä", :gloss "corrupt", :rootClass :CCC, :derivedStem :S, :stemClass :L},
+           :msnST   {:pos :Verb, :lemma "astämasän-ä", :gloss "corrupt", :rootClass :CCC, :derivedStem :ST, :stemClass :L},
+           :msnT   {:pos :Verb, :lemma "tämasän-ä", :gloss "corrupt", :rootClass :CCC, :derivedStem :T, :stemClass :L},
+           :ngrB   {:pos :Verb, :lemma "nägär-ä", :gloss "speak", :rootClass :CCC, :derivedStem :B, :stemClass :A1},
+           :ngrS   {:pos :Verb, :lemma "angär-ä", :gloss "speak", :rootClass :CCC, :derivedStem :S, :stemClass :A1},
+           :ngrST   {:pos :Verb, :lemma "astängär-ä", :gloss "speak", :rootClass :CCC, :derivedStem :ST, :stemClass :A1},
+           :ngrT   {:pos :Verb, :lemma "tänägr-ä", :gloss "speak", :rootClass :CCC, :derivedStem :T, :stemClass :A1},
+           :qwmB   {:pos :Verb, :lemma "qom-ä", :gloss "stand", :rootClass :CWC, :derivedStem :B, :stemClass :A},
+           :qwmS   {:pos :Verb, :lemma "qom-ä", :gloss "stand", :rootClass :CWC, :derivedStem :S, :stemClass :A},
+           :qwmT   {:pos :Verb, :lemma "täqäwm-ä", :gloss "stand", :rootClass :CWC, :derivedStem :T, :stemClass :A},
+           :sryB   {:pos :Verb, :lemma "säräy-ä/säre-ä", :gloss "pardon", :rootClass :CCY, :derivedStem :B, :stemClass :A1},
+           :sryS   {:pos :Verb, :lemma "asräy-ä", :gloss "pardon", :rootClass :CCY, :derivedStem :S, :stemClass :A1},
+           :sryT   {:pos :Verb, :lemma "täsäry-ä", :gloss "pardon", :rootClass :CCY, :derivedStem :T, :stemClass :A1},
+           :wdqB   {:pos :Verb, :lemma "wädq-ä", :gloss "fall", :rootClass :WCC, :derivedStem :B, :stemClass :A2},
+           :wdqS   {:pos :Verb, :lemma "awdäq-ä", :gloss "fall", :rootClass :WCC, :derivedStem :S, :stemClass :A2},
+           :wdqT   {:pos :Verb, :lemma "täwädq-ä", :gloss "fall", :rootClass :WCC, :derivedStem :T, :stemClass :A2},
+           :whsST   {:pos :Verb, :lemma "astäw?äs-ä", :gloss "lend", :rootClass :WCC, :derivedStem :ST, :stemClass :A1},
+           :whyST   {:pos :Verb, :lemma "astäwä??ä", :gloss "spend", :rootClass :WCC, :derivedStem :ST, :stemClass :A2},
+           :wrdB   {:pos :Verb, :lemma "wäräd-ä", :gloss "descend", :rootClass :WCC, :derivedStem :B, :stemClass :A1},
+           :wrdS   {:pos :Verb, :lemma "awräd-ä", :gloss "descend", :rootClass :WCC, :derivedStem :S, :stemClass :A1},
+           :wrdT   {:pos :Verb, :lemma "täwärd-ä", :gloss "descend", :rootClass :WCC, :derivedStem :T, :stemClass :A1},
+           :xryB   {:pos :Verb, :lemma "?äry-ä", :gloss "choose", :rootClass :CCY, :derivedStem :B, :stemClass :A2},
+           :xryS   {:pos :Verb, :lemma "a?räy-ä", :gloss "choose", :rootClass :CCY, :derivedStem :S, :stemClass :A2},
+           :xryST   {:pos :Verb, :lemma "astä?räy-ä", :gloss "choose", :rootClass :CCY, :derivedStem :ST, :stemClass :A2},
+           :xryT   {:pos :Verb, :lemma "tä?äry-ä", :gloss "choose", :rootClass :CCY, :derivedStem :T, :stemClass :A2},
+           }
  :termclusters [
                 {:label "geez-VCCCBA1Imprtv"
-                 :note ""
+                 :note "G98"
                  :common {:vmorphClass :Finite,
                           :derivedStem :B,
                           :lexeme :ngrB,
@@ -86,7 +86,7 @@
                          [:Plural :Fem "nəgr-a" "⊤" "nəgr" "-a"]]
                  }
                 {:label "geez-VCCCBA1Juss"
-                 :note ""
+                 :note "G98"
                  :common {:vmorphClass :Finite,
                           :derivedStem :B,
                           :lexeme :ngrB,
@@ -107,7 +107,7 @@
                          [:Plural :Person3 :Fem "yə-ngər-a" "yə-" "ngər" "-a"]]
                  }
                 {:label "geez-VCCCBA1Past"
-                 :note ""
+                 :note "G98"
                  :common {:vmorphClass :Finite,
                           :derivedStem :B,
                           :lexeme :ngrB,
@@ -128,7 +128,7 @@
                          [:Plural :Person3 :Fem "nägär-a" "⊤" "nägär" "-a"]]
                  }
                 {:label "geez-VCCCBA1Pres"
-                 :note ""
+                 :note "G98"
                  :common {:vmorphClass :Finite,
                           :derivedStem :B,
                           :lexeme :ngrB,
@@ -149,7 +149,7 @@
                          [:Plural :Person3 :Fem "yə-näggər-a" "yə-" "näggər" "-a"]]
                  }
                 {:label "geez-VCCCBA2Imprtv"
-                 :note ""
+                 :note "G98"
                  :common {:vmorphClass :Finite,
                           :derivedStem :B,
                           :lexeme :lbsB,
@@ -165,7 +165,7 @@
                          [:Plural :Fem "ləbäs-a" "⊤" "ləbäs" "-a"]]
                  }
                 {:label "geez-VCCCBA2Juss"
-                 :note ""
+                 :note "G98"
                  :common {:vmorphClass :Finite,
                           :derivedStem :B,
                           :lexeme :lbsB,
@@ -186,7 +186,7 @@
                          [:Plural :Person3 :Fem "yə-lbäs-a" "yə-" "lbäs" "-a"]]
                  }
                 {:label "geez-VCCCBA2Past"
-                 :note ""
+                 :note "G98"
                  :common {:vmorphClass :Finite,
                           :derivedStem :B,
                           :lexeme :lbsB,
@@ -207,7 +207,7 @@
                          [:Plural :Person3 :Fem "läbs-a" "⊤" "läbs" "-a"]]
                  }
                 {:label "geez-VCCCBA2Pres"
-                 :note ""
+                 :note "G98"
                  :common {:vmorphClass :Finite,
                           :derivedStem :B,
                           :lexeme :lbsB,
@@ -228,7 +228,7 @@
                          [:Plural :Person3 :Fem "yə-läbbəs-a" "yə-" "läbbəs" "-a"]]
                  }
                 {:label "geez-VCCCSImprtv"
-                 :note ""
+                 :note "G98"
                  :common {:vmorphClass :Finite,
                           :derivedStem :S,
                           :lexeme :ngrS,
@@ -243,7 +243,7 @@
                          [:Plural :Fem "angər-a" "⊤" "angər" "-a"]]
                  }
                 {:label "geez-VCCCSJuss"
-                 :note ""
+                 :note "G98"
                  :common {:vmorphClass :Finite,
                           :derivedStem :S,
                           :lexeme :ngrS,
@@ -263,7 +263,7 @@
                          [:Plural :Person3 :Fem "y-angər-a" "y-" "angər" "-a"]]
                  }
                 {:label "geez-VCCCSPast"
-                 :note ""
+                 :note "G98"
                  :common {:vmorphClass :Finite,
                           :derivedStem :S,
                           :lexeme :ngrS,
@@ -283,7 +283,7 @@
                          [:Plural :Person3 :Fem "angär-a" "⊤" "angär" "-a"]]
                  }
                 {:label "geez-VCCCSPres"
-                 :note ""
+                 :note "G98"
                  :common {:vmorphClass :Finite,
                           :derivedStem :S,
                           :lexeme :ngr,
@@ -303,7 +303,7 @@
                          [:Plural :Person3 :Fem "y-anäggər-a" "y-" "anäggər" "-a"]]
                  }
                 {:label "geez-VCCCTImprtv"
-                 :note ""
+                 :note "G98"
                  :common {:vmorphClass :Finite,
                           :derivedStem :T,
                           :lexeme :ngrT,
@@ -318,7 +318,7 @@
                          [:Plural :Fem "tänägär-a" "⊤" "tänägär" "-a"]]
                  }
                 {:label "geez-VCCCTJuss"
-                 :note ""
+                 :note "G98"
                  :common {:vmorphClass :Finite,
                           :derivedStem :T,
                           :lexeme :ngrT,
@@ -338,7 +338,7 @@
                          [:Plural :Person3 :Fem "yə-tnägär-a" "yə-" "tnägär" "-a"]]
                  }
                 {:label "geez-VCCCTPast"
-                 :note ""
+                 :note "G98"
                  :common {:vmorphClass :Finite,
                           :derivedStem :T,
                           :lexeme :ngrT,
@@ -358,7 +358,7 @@
                          [:Plural :Person3 :Fem "tänägr-a" "⊤" "tänägr" "-a"]]
                  }
                 {:label "geez-VCCCTPres"
-                 :note ""
+                 :note "G98"
                  :common {:vmorphClass :Finite,
                           :derivedStem :T,
                           :lexeme :ngrT,
@@ -378,7 +378,7 @@
                          [:Plural :Person3 :Fem "yə-tnäggär-a" "yə-" "tnäggär" "-a"]]
                  }
                 {:label "geez-VCCWBA1Imprtv"
-                 :note ""
+                 :note "G98"
                  :common {:vmorphClass :Finite,
                           :derivedStem :B,
                           :lexeme :ftwB,
@@ -394,7 +394,7 @@
                          [:Plural :Fem "fətəw-a" "⊤" "fətəw" "-a"]]
                  }
                 {:label "geez-VCCWBA1Juss"
-                 :note ""
+                 :note "G98"
                  :common {:vmorphClass :Finite,
                           :derivedStem :B,
                           :lexeme :ftwB,
@@ -415,7 +415,7 @@
                          [:Plural :Person3 :Fem "yə-ftəw-a" "yə-" "ftəw" "-a"]]
                  }
                 {:label "geez-VCCWBA1Past"
-                 :note ""
+                 :note "G98"
                  :common {:vmorphClass :Finite,
                           :derivedStem :B,
                           :lexeme :ftwB,
@@ -436,7 +436,7 @@
                          [:Plural :Person3 :Fem "fätäw-a" "⊤" "fätäw" "-a"]]
                  }
                 {:label "geez-VCCWBA1Pres"
-                 :note ""
+                 :note "G98"
                  :common {:vmorphClass :Finite,
                           :derivedStem :B,
                           :lexeme :ftwB,
@@ -457,7 +457,7 @@
                          [:Plural :Person3 :Fem "yə-fättəw-a" "yə-" "fättəw" "-a"]]
                  }
                 {:label "geez-VCCWBA2Imprtv"
-                 :note ""
+                 :note "G98"
                  :common {:vmorphClass :Finite,
                           :derivedStem :B,
                           :lexeme :bdwB,
@@ -473,7 +473,7 @@
                          [:Plural :Fem "bədäw-a" "⊤" "bədäw" "-a"]]
                  }
                 {:label "geez-VCCWBA2Juss"
-                 :note ""
+                 :note "G98"
                  :common {:vmorphClass :Finite,
                           :derivedStem :B,
                           :lexeme :bdwB,
@@ -494,7 +494,7 @@
                          [:Plural :Person3 :Fem "yə-bdäw-a" "yə-" "bdäw" "-a"]]
                  }
                 {:label "geez-VCCWBA2Past"
-                 :note ""
+                 :note "G98"
                  :common {:vmorphClass :Finite,
                           :derivedStem :B,
                           :lexeme :bdwB,
@@ -515,7 +515,7 @@
                          [:Plural :Person3 :Fem "bädw-a" "⊤" "bädw" "-a"]]
                  }
                 {:label "geez-VCCWBA2Pres"
-                 :note ""
+                 :note "G98"
                  :common {:vmorphClass :Finite,
                           :derivedStem :B,
                           :lexeme :bdwB,
@@ -536,7 +536,7 @@
                          [:Plural :Person3 :Fem "yə-bäddəw-a" "yə-" "bäddəw" "-a"]]
                  }
                 {:label "geez-VCCYBA1Imprtv"
-                 :note ""
+                 :note "G98"
                  :common {:vmorphClass :Finite,
                           :derivedStem :B,
                           :lexeme :sryB,
@@ -552,7 +552,7 @@
                          [:Plural :Fem "sərəy-a" "⊤" "sərəy" "-a"]]
                  }
                 {:label "geez-VCCYBA1Juss"
-                 :note ""
+                 :note "G98"
                  :common {:vmorphClass :Finite,
                           :derivedStem :B,
                           :lexeme :sryB,
@@ -573,7 +573,7 @@
                          [:Plural :Person3 :Fem "yə-srəy-a" "yə-" "srəy" "-a"]]
                  }
                 {:label "geez-VCCYBA1Past"
-                 :note ""
+                 :note "G98"
                  :common {:vmorphClass :Finite,
                           :derivedStem :B,
                           :lexeme :sryB,
@@ -594,7 +594,7 @@
                          [:Plural :Person3 :Fem "säräy-a" "⊤" "säräy" "-a"]]
                  }
                 {:label "geez-VCCYBA1Pres"
-                 :note ""
+                 :note "G98"
                  :common {:vmorphClass :Finite,
                           :derivedStem :B,
                           :lexeme :sryB,
@@ -615,7 +615,7 @@
                          [:Plural :Person3 :Fem "yə-särrəy-a" "yə-" "särrəy" "-a"]]
                  }
                 {:label "geez-VCCYBA2Imprtv"
-                 :note ""
+                 :note "G98"
                  :common {:vmorphClass :Finite,
                           :derivedStem :B,
                           :lexeme :xryB,
@@ -631,7 +631,7 @@
                          [:Plural :Fem "ḫäräy-a" "⊤" "ḫäräy" "-a"]]
                  }
                 {:label "geez-VCCYBA2Juss"
-                 :note ""
+                 :note "G98"
                  :common {:vmorphClass :Finite,
                           :derivedStem :B,
                           :lexeme :xryB,
@@ -652,7 +652,7 @@
                          [:Plural :Person3 :Fem "yə-ḫräy-a" "yə-" "ḫräy" "-a"]]
                  }
                 {:label "geez-VCCYBA2Past"
-                 :note ""
+                 :note "G98"
                  :common {:vmorphClass :Finite,
                           :derivedStem :B,
                           :lexeme :xryB,
@@ -673,7 +673,7 @@
                          [:Plural :Person3 :Fem "ḫäry-a" "⊤" "ḫäry" "-a"]]
                  }
                 {:label "geez-VCCYBA2Pres"
-                 :note ""
+                 :note "G98"
                  :common {:vmorphClass :Finite,
                           :derivedStem :B,
                           :lexeme :xryB,
@@ -694,7 +694,7 @@
                          [:Plural :Person3 :Fem "yə-ḫärrəy-a" "yə-" "ḫärrəy" "-a"]]
                  }
                 {:label "geez-VCWCBAImprtv"
-                 :note ""
+                 :note "G98"
                  :common {:vmorphClass :Finite,
                           :derivedStem :B,
                           :lexeme :qwmB,
@@ -710,7 +710,7 @@
                          [:Plural :Fem "qum-a" "⊤" "qum" "-a"]]
                  }
                 {:label "geez-VCWCBAJuss"
-                 :note ""
+                 :note "G98"
                  :common {:vmorphClass :Finite,
                           :derivedStem :B,
                           :lexeme :qwmB,
@@ -731,7 +731,7 @@
                          [:Plural :Person3 :Fem "yə-qum-a" "yə-" "qum" "-a"]]
                  }
                 {:label "geez-VCWCBAPast"
-                 :note ""
+                 :note "G98"
                  :common {:vmorphClass :Finite,
                           :derivedStem :B,
                           :lexeme :qwmB,
@@ -752,7 +752,7 @@
                          [:Plural :Person3 :Fem "qom-a" "⊤" "qom" "-a"]]
                  }
                 {:label "geez-VCWCBAPres"
-                 :note ""
+                 :note "G98"
                  :common {:vmorphClass :Finite,
                           :derivedStem :B,
                           :lexeme :qwmB,
@@ -773,7 +773,7 @@
                          [:Plural :Person3 :Fem "yə-qäwwəm-a" "yə-" "qäwwəm" "-a"]]
                  }
                 {:label "geez-VCYCBAImprtv"
-                 :note ""
+                 :note "G98"
                  :common {:vmorphClass :Finite,
                           :derivedStem :B,
                           :lexeme :kydB,
@@ -789,7 +789,7 @@
                          [:Plural :Fem "kid-a" "⊤" "kid" "-a"]]
                  }
                 {:label "geez-VCYCBAJuss"
-                 :note ""
+                 :note "G98"
                  :common {:vmorphClass :Finite,
                           :derivedStem :B,
                           :lexeme :kydB,
@@ -810,7 +810,7 @@
                          [:Plural :Person3 :Fem "yə-kid-a" "yə-" "kid" "-a"]]
                  }
                 {:label "geez-VCYCBAPast"
-                 :note ""
+                 :note "G98"
                  :common {:vmorphClass :Finite,
                           :derivedStem :B,
                           :lexeme :kydB,
@@ -831,7 +831,7 @@
                          [:Plural :Person3 :Fem "ked-a" "⊤" "ked" "-a"]]
                  }
                 {:label "geez-VCYCBAPres"
-                 :note ""
+                 :note "G98"
                  :common {:vmorphClass :Finite,
                           :derivedStem :B,
                           :lexeme :kydB,
@@ -852,7 +852,7 @@
                          [:Plural :Person3 :Fem "yə-käyyəd-a" "yə-" "käyyəd" "-a"]]
                  }
                 {:label "geez-VWCCBA1Imprtv"
-                 :note ""
+                 :note "G98"
                  :common {:vmorphClass :Finite,
                           :derivedStem :B,
                           :lexeme :wrdB,
@@ -868,7 +868,7 @@
                          [:Plural :Fem "räd-a" "⊤" "räd" "-a"]]
                  }
                 {:label "geez-VWCCBA1Juss"
-                 :note ""
+                 :note "G98"
                  :common {:vmorphClass :Finite,
                           :derivedStem :B,
                           :lexeme :wrdB,
@@ -889,7 +889,7 @@
                          [:Plural :Person3 :Fem "yə-räd-a" "yə-" "räd" "-a"]]
                  }
                 {:label "geez-VWCCBA1Past"
-                 :note ""
+                 :note "G98"
                  :common {:vmorphClass :Finite,
                           :derivedStem :B,
                           :lexeme :wrdB,
@@ -910,7 +910,7 @@
                          [:Plural :Person3 :Fem "wäräd-a" "⊤" "wäräd" "-a"]]
                  }
                 {:label "geez-VWCCBA1Pres"
-                 :note ""
+                 :note "G98"
                  :common {:vmorphClass :Finite,
                           :derivedStem :B,
                           :lexeme :wrdB,
@@ -931,7 +931,7 @@
                          [:Plural :Person3 :Fem "yə-wärrəd-a" "yə-" "wärrəd" "-a"]]
                  }
                 {:label "geez-VWCCBA2Imprtv"
-                 :note ""
+                 :note "G98"
                  :common {:vmorphClass :Finite,
                           :derivedStem :B,
                           :lexeme :wdqB,
@@ -947,7 +947,7 @@
                          [:Plural :Fem "däq-a" "⊤" "däq" "-a"]]
                  }
                 {:label "geez-VWCCBA2Juss"
-                 :note ""
+                 :note "G98"
                  :common {:vmorphClass :Finite,
                           :derivedStem :B,
                           :lexeme :wdqB,
@@ -968,7 +968,7 @@
                          [:Plural :Person3 :Fem "yə-däq-a" "yə-" "däq" "-a"]]
                  }
                 {:label "geez-VWCCBA2Past"
-                 :note ""
+                 :note "G98"
                  :common {:vmorphClass :Finite,
                           :derivedStem :B,
                           :lexeme :wdqB,
@@ -989,7 +989,7 @@
                          [:Plural :Person3 :Fem "wädq-a" "⊤" "wädq" "-a"]]
                  }
                 {:label "geez-VWCCBA2Pres"
-                 :note ""
+                 :note "G98"
                  :common {:vmorphClass :Finite,
                           :derivedStem :B,
                           :lexeme :wdqB,
@@ -1010,6 +1010,7 @@
                          [:Plural :Person3 :Fem "yə-wäddəq-a" "yə-" "wäddəq" "-a"]]
                  }
                 {:label "geez-PDemFar"
+                 :note "G98"
                  :common {             :pos :Pronoun, :pmorphClass :ProMorph,
                           :deixis :Far,
                           :proClass :ProDemFar}
@@ -1019,6 +1020,7 @@
                          [:Plural :Person3 :Common "əlləku"]]
                  }
                 {:label "geez-PDemNearRel"
+                 :note "G98"
                  :common {             :pos :Pronoun, :pmorphClass :ProMorph,
                           :deixis :Near,
                           :proClass :ProDemNear}
@@ -1029,6 +1031,7 @@
                          [:Plural :Person3 :Fem "əlla/əllantu"]]
                  }
                 {:label "geez-PDemRel"
+                 :note "G98"
                  :common {:pos :Pronoun, 
                           :pmorphClass :ProMorph,
                           :proClass :ProDemRel}
@@ -1037,6 +1040,7 @@
                          [:Plural :Person3 :Common "əllä"]]
                  }
                 {:label "geez-PInd"
+                 :note "G98"
                  :common {:pos :Pronoun, 
                           :pmorphClass :ProMorph,
                           :proClass :ProInd}
@@ -1053,6 +1057,7 @@
                          [:Plural :Person3 :Fem "əmantu"]]
                  }
                 {:label "geez-PInterrog"
+                 :note "G98"
                  :common {:pos :Pronoun, 
                           :pmorphClass :ProMorph,
                           :proClass :ProInterrog}
@@ -1062,6 +1067,7 @@
                          [:NumC :Person3 :Altern "äyy"]]
                  }
                 {:label "geez-PObjSuff"
+                 :note "G98"
                  :common {:pos :Pronoun, 
                           :pmorphClass :ProMorph,
                           :proClass :ProObjSuff}
@@ -1078,6 +1084,7 @@
                          [:Plural :Person3 :Fem "-hon"]]
                  }
                 {:label "geez-PPossSuff"
+                 :note "G98"
                  :common {:pos :Pronoun, 
                           :pmorphClass :ProMorph,
                           :proClass :ProPossSuff}
@@ -1094,7 +1101,7 @@
                          [:Plural :Person3 :Fem "-hon"]]
                  }
                 {:label "geez-VSubjMarker"
-                 :note ""
+                 :note "G98"
                  :common {:pos :Pronoun, 
                           :pmorphClass :ProMorph,
                           :proClass :VSubjMarker}
@@ -1121,7 +1128,7 @@
                          [:Suffix :Plural :Person3 :Fem "-a" "⊤" "⊤" "-a"]]
                  }
                 {:label "geez-VVerbStems"
-                 :note "Full Geez verbal words are formed by combining the stem of the present or jussive with the prefixes and suffixes of the geezPrefixingVSubject paradigm,or the stem of the past with the suffixes of the geezSuffixingVSubject paradigm"
+                 :note "G98 :: Full Geez verbal words are formed by combining the stem of the present or jussive with the prefixes and suffixes of the geezPrefixingVSubject paradigm,or the stem of the past with the suffixes of the geezSuffixingVSubject paradigm"
                  :common {:pos :Verb,
                           :vmorphClass :VerbStems}
                  :terms [[:derivedStem :rootClass :stemClass :tam :token],
